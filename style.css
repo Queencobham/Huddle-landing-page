@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url(./images/bg-mobile.svg);
+   background-color: hsl(257, 40%, 49%);
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.container{
+    color: #fff;
+    /* border: 1px solid white; */
+    width: 80%;
+    margin: auto;
+    padding: 2em 0;
+}
+
+.header img{
+    width: 7em;
+}
+
+.content{
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    /* text-align: center; */
+}
+
+.content .hero img{
+    /* width: 39em; */
+    width:100%;
+    /* margin-top: 40px; */
+    object-fit: contain;
+}
+
+.content .hero-text{
+    margin-top: 2.55em;
+    text-align: center;
+}
+
+.content .hero-text h1{
+    font-size: 1.5rem;
+    margin-bottom: 0.6em;
+    line-height: 1.33em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.content .hero-text p{
+    font-size: 0.99rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin-bottom: 1.8em;
+}
+
+.content .hero-text .hero-btn{
+    background-color: #fff;
+    padding: 0.7em 4em;
+    border-radius: 2em;
+}
+
+.content .hero-text a{
+    text-decoration: none;
+    color: hsl(257, 40%, 49%);
+    font-size: 0.9rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    box-shadow: 0px 8px 17px -8px rgba(0,0,0,.8);
+}
+
+.content .hero-text .hero-btn:hover{
+    background-color: hsl(300, 69%, 71%);
+    color:#fff;
+}
+
+.footer-icons{
+    /* float: right; */
+    font-size: 0.99em;
+    text-align: center;
+    /* margin-top: 5em; */
+}
+
+.footer-icons .fa{
+    margin: 0 0.3em;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0.5em 0.6em;
+}
+
+.footer-icons .fa:hover{
+    color:hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+   .header img{
+       width: 8em;
+   }
+    .content .hero-text h1{
+        font-size: 1.9rem;
+    }  
+
+    .content .hero-text p{
+        font-size: 1.1rem;
+    }
+
+    .content .hero-text a{
+        font-size: 1rem;
+    }
+
+    .footer-icons .fa{
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1024px){
+    body{
+        background-image: url(./images/bg-desktop.svg);
+        background-color: hsl(257, 40%, 49%);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    /* .container{
+        border: 1px solid white;
+    } */
+    
+    .header img{
+        width: 9em;
+    }
+
+    .content{
+        margin-top: 5em;
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+    }
+
+    .content .hero img{
+        width: 38em;
+        /* width:100%; */
+        /* margin-top: 40px; */
+        object-fit: contain;
+    }
+
+    .content .hero-text{
+        text-align: left;
+    }
+
+    .content .hero-text h1{
+        font-size: 2.5rem;
+    }
+    
+    .content .hero-text p{
+        font-size: 0.95rem;
+    }
+
+    .footer-icons{
+        text-align: right;
+        /* margin-top: 0; */
+    }
+}    
+
+@media (min-width: 200px) and (max-width: 1172px){
+    .footer-icons{
+        margin-top: 4em;
+    }
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
